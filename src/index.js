@@ -4,7 +4,7 @@ import {ButtonComponent} from './components/button/button'
 
 export const ExampleComponent = ({ text }) => {
   return (
-    <div>
+    <div className={styles.main}>
       <ButtonComponent text={text}/>
     </div>
   )
