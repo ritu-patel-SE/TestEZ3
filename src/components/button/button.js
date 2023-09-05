@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from './button.module.css'
 
-export const ButtonComponent = ({ text }) => {
+export const ButtonComponent = ({ text,description }) => {
   return (
     <div className={styles.card}>
-      Example Component: {text}
+      Product Number: {text}
+      Description: {description}
     </div>
   )
 }
